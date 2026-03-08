@@ -9,7 +9,7 @@ import { NotesProvider } from "./context/NotesContext"
 function App() {
   return (
     <NotesProvider>
-      <div style={{padding:"20px"}}>
+      <div style={{padding:"20px",background:"white", border:"black solid"}}>
         <h1>Notes Dashboard</h1>
         <NoteInput/>
         <NotesCount/>

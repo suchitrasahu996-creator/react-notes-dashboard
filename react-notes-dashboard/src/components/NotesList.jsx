@@ -9,7 +9,7 @@ const NotesList =()=>{
     return(
         <ul>
             {notes.map ((note,index)=>{
-                <li key ={index} onClick={()=>setSelectedIndex(index)} style={{background:selectedIndex===index ? "#d3f3ff" : "transparent", cursor:"pointer", padding:"6px"}}>
+                <li key ={index} onClick={()=>setSelectedIndex(index)} style={{background:selectedIndex===index ? "#d3f3ff" : "transparent", cursor:"pointer", padding:"6px",gap:"3px"}}>
                     {note}</li>
             })}
         </ul>
